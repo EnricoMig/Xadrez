@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Xadrez Simplificado</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Jogo de Xadrez</h1>
+    <div class="chess-board-wrapper">
+        <div class="col-labels">
+            <span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span>
+        </div>
+        <div class="row">
+            <div class="row-labels">
+                <span>8</span><span>7</span><span>6</span><span>5</span><span>4</span><span>3</span><span>2</span><span>1</span>
+            </div>
+            <div id="chess-board"></div>
+        </div>
+    </div>
+    <input type="text" id="move-input" placeholder="Digite o movimento (ex: e2e4)">
+    <button onclick="makeMove()">Fazer Movimento</button>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
